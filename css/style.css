@@ -1,4 +1,4 @@
-`* {
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -11,7 +11,7 @@ html {
 body {
   font-family: "Noto Sans KR", "Pretendard", Arial, sans-serif;
   background: #8f8b8b;
-  color: #ffffff;
+  color: #000000;
   line-height: 1.7;
 }
 
@@ -113,7 +113,7 @@ header {
 
 .hero-desc {
   max-width: 560px;
-  color: #e2e8f0;
+  color: #000000;
   font-size: 19px;
   margin-bottom: 40px;
 }
@@ -148,7 +148,7 @@ header {
 
 .btn-secondary {
   border-color: rgba(255, 255, 255, 0.36);
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 .btn-outline {
@@ -394,7 +394,7 @@ main section,
   justify-content: space-between;
   gap: 16px;
   padding-bottom: 14px;
-  border-bottom: 1px solid #e2e8f0;
+  border-bottom: 1px solid #000000;
 }
 
 .info-item strong {
@@ -471,7 +471,7 @@ main section,
 }
 
 .contact p {
-  color: #cbd5e1;
+  color: #000000;
   max-width: 680px;
   margin: 0 auto 38px;
   font-size: 18px;
