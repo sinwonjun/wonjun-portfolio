@@ -10,7 +10,7 @@ html {
 
 body {
   font-family: "Noto Sans KR", "Pretendard", Arial, sans-serif;
-  background: #8f8b8b;
+  background: #ffcb5a;
   color: #000000;
   line-height: 1.7;
 }
@@ -29,7 +29,7 @@ header {
   position: sticky;
   top: 0;
   z-index: 50;
-  background: rgba(246, 226, 124, 0.88);
+  background: rgba(254, 201, 55, 0.88);
   backdrop-filter: blur(14px);
   border-bottom: 1px solid #000000;
 }
@@ -67,7 +67,7 @@ header {
 .hero {
   position: relative;
   overflow: hidden;
-  background: linear-gradient(135deg, #f1f5de, #fafad3);
+  background: linear-gradient(135deg, #ffed96, #ffd45d);
   color: rgb(0, 0, 0);
 }
 
@@ -150,6 +150,7 @@ header {
   background: rgb(255, 255, 255);
   border-color: rgba(255, 255, 255, 0.36);
   color: rgb(0, 0, 0);
+  box-shadow: 0 16px 32px rgba(15, 23, 42, 0.24);
 }
 
 .btn-outline {
